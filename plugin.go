@@ -11,14 +11,14 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/client/selector"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/transport"
-	mp "github.com/micro/micro/plugin"
+	"github.com/focalsolution/micro-go-micro/broker"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/client/selector"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/server"
+	"github.com/focalsolution/micro-go-micro/transport"
+	mp "github.com/focalsolution/micro-micro/plugin"
 )
 
 // Plugin is a plugin loaded from a file

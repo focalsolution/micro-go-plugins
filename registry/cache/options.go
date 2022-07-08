@@ -3,7 +3,7 @@ package cache
 import (
 	"time"
 
-	"github.com/micro/go-micro/registry/cache"
+	"github.com/focalsolution/micro-go-micro/registry/cache"
 )
 
 // WithTTL sets the cache TTL

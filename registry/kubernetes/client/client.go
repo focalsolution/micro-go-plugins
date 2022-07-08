@@ -8,9 +8,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-plugins/registry/kubernetes/client/api"
-	"github.com/micro/go-plugins/registry/kubernetes/client/watch"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-go-plugins/registry/kubernetes/client/api"
+	"github.com/focalsolution/micro-go-plugins/registry/kubernetes/client/watch"
 )
 
 var (

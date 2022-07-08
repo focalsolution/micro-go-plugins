@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/errors"
 	"github.com/sony/gobreaker"
 )
 

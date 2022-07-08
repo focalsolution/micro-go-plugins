@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/micro/plugin"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-micro/plugin"
 )
 
 type whitelist struct {

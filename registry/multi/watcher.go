@@ -3,8 +3,8 @@ package multi
 import (
 	"sync"
 
-	"github.com/micro/go-micro/registry"
-	log "github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/registry"
+	log "github.com/focalsolution/micro-go-micro/util/log"
 )
 
 type multiWatcher struct {

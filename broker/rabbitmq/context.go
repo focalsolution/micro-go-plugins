@@ -3,7 +3,7 @@ package rabbitmq
 import (
 	"context"
 
-	"github.com/micro/go-micro/broker"
+	"github.com/focalsolution/micro-go-micro/broker"
 )
 
 // setSubscribeOption returns a function to setup a context with given value

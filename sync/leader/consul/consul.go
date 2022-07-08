@@ -10,7 +10,7 @@ import (
 
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/api/watch"
-	"github.com/micro/go-micro/sync/leader"
+	"github.com/focalsolution/micro-go-micro/sync/leader"
 )
 
 type consulLeader struct {
@@ -63,7 +63,7 @@ func (c *consulLeader) Elect(id string, opts ...leader.ElectOption) (leader.Elec
 func (c *consulLeader) Follow() chan string {
 	ch := make(chan string, 1)
 
-	key := path.Join("/micro/leader", c.opts.Group)
+	key := path.Join("/focalsolution/micro-leader", c.opts.Group)
 
 	p, err := watch.Parse(map[string]interface{}{
 		"type": "key",

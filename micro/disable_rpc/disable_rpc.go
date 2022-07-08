@@ -4,8 +4,8 @@ package disable_rpc
 import (
 	"net/http"
 
-	"github.com/micro/cli"
-	"github.com/micro/micro/plugin"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-micro/plugin"
 )
 
 type disable_rpc struct{}

@@ -2,8 +2,8 @@
 package cache
 
 import (
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/registry/cache"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/registry/cache"
 )
 
 // New returns a new cache

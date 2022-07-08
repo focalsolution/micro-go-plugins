@@ -2,12 +2,12 @@
 package datadog
 
 import (
-	"github.com/micro/go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/registry"
 
 	"context"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/server"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/server"
 )
 
 var noDebugStack = true

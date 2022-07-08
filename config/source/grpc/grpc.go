@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/micro/go-micro/config/source"
-	proto "github.com/micro/go-plugins/config/source/grpc/proto"
+	"github.com/focalsolution/micro-go-micro/config/source"
+	proto "github.com/focalsolution/micro-go-plugins/config/source/grpc/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -19,7 +19,7 @@ type grpcSource struct {
 }
 
 var (
-	DefaultPath    = "/micro/config"
+	DefaultPath    = "/focalsolution/micro-config"
 	DefaultAddress = "localhost:8080"
 )
 

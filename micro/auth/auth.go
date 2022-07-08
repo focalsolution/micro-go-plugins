@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/micro/plugin"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-micro/plugin"
 
 	// enterprise auth
-	"github.com/micro/go-plugins/micro/auth/basic"
-	"github.com/micro/go-plugins/micro/auth/digest"
-	"github.com/micro/go-plugins/micro/auth/ldap"
+	"github.com/focalsolution/micro-go-plugins/focalsolution/micro-auth/basic"
+	"github.com/focalsolution/micro-go-plugins/focalsolution/micro-auth/digest"
+	"github.com/focalsolution/micro-go-plugins/focalsolution/micro-auth/ldap"
 )
 
 type Auth struct {

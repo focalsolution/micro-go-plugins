@@ -4,10 +4,10 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/micro/go-micro/config"
-	"github.com/micro/go-micro/config/source/file"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-plugins/micro/router"
+	"github.com/focalsolution/micro-go-micro/config"
+	"github.com/focalsolution/micro-go-micro/config/source/file"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-go-plugins/focalsolution/micro-router"
 )
 
 func main() {

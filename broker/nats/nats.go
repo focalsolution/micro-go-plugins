@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/codec/json"
-	"github.com/micro/go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/broker"
+	"github.com/focalsolution/micro-go-micro/codec/json"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
 	nats "github.com/nats-io/nats.go"
 )
 

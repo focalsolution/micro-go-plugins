@@ -4,12 +4,12 @@ package metrics
 import (
 	"net/http"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/micro/plugin"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-micro/plugin"
 
 	// prometheus metrics
-	"github.com/micro/go-plugins/micro/metrics/prometheus"
+	"github.com/focalsolution/micro-go-plugins/focalsolution/micro-metrics/prometheus"
 )
 
 type Metrics struct {

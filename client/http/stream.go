@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/micro/go-micro/client"
+	"github.com/focalsolution/micro-go-micro/client"
 )
 
 // Implements the streamer interface

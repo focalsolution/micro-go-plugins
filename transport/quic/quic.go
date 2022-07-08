@@ -2,9 +2,9 @@
 package quic
 
 import (
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/transport/quic"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/transport"
+	"github.com/focalsolution/micro-go-micro/transport/quic"
 )
 
 func init() {

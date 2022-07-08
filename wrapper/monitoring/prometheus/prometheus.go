@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/micro/go-micro/server"
+	"github.com/focalsolution/micro-go-micro/server"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

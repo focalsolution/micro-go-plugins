@@ -16,10 +16,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/google/uuid"
 	"github.com/hashicorp/memberlist"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/registry"
-	log "github.com/micro/go-micro/util/log"
-	pb "github.com/micro/go-plugins/registry/gossip/proto"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/registry"
+	log "github.com/focalsolution/micro-go-micro/util/log"
+	pb "github.com/focalsolution/micro-go-plugins/registry/gossip/proto"
 	"github.com/mitchellh/hashstructure"
 )
 

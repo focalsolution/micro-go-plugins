@@ -3,7 +3,7 @@ package utp
 import (
 	"time"
 
-	"github.com/micro/go-micro/transport"
+	"github.com/focalsolution/micro-go-micro/transport"
 )
 
 func (u *utpClient) Local() string {

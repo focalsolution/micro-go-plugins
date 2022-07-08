@@ -14,16 +14,16 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/config/cmd"
-	merr "github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/registry/cache"
-	maddr "github.com/micro/go-micro/util/addr"
-	"github.com/micro/go-micro/util/log"
-	mnet "github.com/micro/go-micro/util/net"
-	mls "github.com/micro/go-micro/util/tls"
-	proto "github.com/micro/go-plugins/broker/grpc/proto"
+	"github.com/focalsolution/micro-go-micro/broker"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	merr "github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/registry/cache"
+	maddr "github.com/focalsolution/micro-go-micro/util/addr"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	mnet "github.com/focalsolution/micro-go-micro/util/net"
+	mls "github.com/focalsolution/micro-go-micro/util/tls"
+	proto "github.com/focalsolution/micro-go-plugins/broker/grpc/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -61,7 +61,7 @@ type grpcEvent struct {
 }
 
 var (
-	registryKey = "github.com/micro/go-micro/registry"
+	registryKey = "github.com/focalsolution/micro-go-micro/registry"
 
 	broadcastVersion = "ff.grpc.broadcast"
 	registerTTL      = time.Minute

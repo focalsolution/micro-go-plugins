@@ -2,9 +2,9 @@
 package grpc
 
 import (
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/transport/grpc"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/transport"
+	"github.com/focalsolution/micro-go-micro/transport/grpc"
 )
 
 func init() {

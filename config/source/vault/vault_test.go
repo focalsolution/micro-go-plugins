@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/micro/go-micro/config"
+	"github.com/focalsolution/micro-go-micro/config"
 )
 
 func TestVaultMakeMap(t *testing.T) {
