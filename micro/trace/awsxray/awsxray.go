@@ -4,7 +4,7 @@ package awsxray
 import (
 	"net/http"
 
-	"github.com/asim/go-awsxray"
+	"github.com/focalsolution/asim-go-awsxray"
 	"github.com/focalsolution/micro-cli"
 	"github.com/focalsolution/micro-go-micro/client"
 	xray "github.com/focalsolution/micro-go-plugins/wrapper/trace/awsxray"

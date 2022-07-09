@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"context"
-	"github.com/asim/go-awsxray"
+	"github.com/focalsolution/asim-go-awsxray"
 	"github.com/focalsolution/micro-go-micro/errors"
 	"github.com/focalsolution/micro-go-micro/metadata"
 )
