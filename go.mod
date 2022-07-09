@@ -44,7 +44,7 @@ require (
 	github.com/hudl/fargo v1.3.0
 	github.com/juju/ratelimit v1.0.1
 	github.com/focalsolution/micro-cli v0.2.1
-	github.com/focalsolution/micro-go-micro v1.18.1-focal
+	github.com/focalsolution/micro-go-micro v1.18.2-focal
 	github.com/micro/micro v1.16.0
 	github.com/minio/highwayhash v1.0.0
 	github.com/mitchellh/hashstructure v1.0.0
